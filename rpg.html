@@ -1,0 +1,46 @@
+﻿<!doctype html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+	<title>rpg</title>
+	<link rel="stylesheet" type="text/css" href="rpg.css" />
+
+</head>
+<body>
+<h1> RPG TEST </h1>
+<div id="board">
+</div>
+
+<div id="cave" onclick="enterCave()"></div>
+<div id="backtotown"></div>
+<div id="enemyArea"></div>
+
+<div id="attack">
+<table>
+	<tr> <td id="00" onclick="HealthPotion()"></td> <td id = "01" onclick="ManaPotion()"></td> </tr>
+</table>
+</div>
+
+<div id="equiped">
+<table>
+	<tr> <td id="10" onclick="player.equip(sword)"></td> <td id = "11" onclick = "player.equip(dagger)"></td> </tr>
+</table>
+</div>
+
+<div id="inventory">
+<table>
+	<tr> <td id="20" onclick = "player.equip(fire)"></td> <td id = "21" onclick = "player.equip(water)"></td> </tr>
+	<tr> <td id="30" onclick= "player.equip(lightning)"></td> <td id = "31" onclick="player.equip(ice)"></td> </tr>
+	<tr> <td id="40" onclick = "player.equip(gust)"></td> <td id = "41" onclick="player.equip(curse)"></td> </tr>
+</table>
+</div>
+
+<div id="messageArea"></div>
+<div id="messageArea1"></div>
+<div class="container">
+	<div id="attButton"onclick="player.attack(enemy)"></div>
+</div>
+<script src="rpg.js"></script>
+
+</body>
+</html>

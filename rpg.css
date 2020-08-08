@@ -1,0 +1,98 @@
+﻿
+
+div#board {
+    position: absolute;
+    width: 617px;
+    height: 472px;
+    top: 65px;
+    border: 2px solid black;
+    z-index: 10;
+}
+
+div#attack {
+    position: absolute;
+    width: 134px;
+    height: 77px;
+    top: 65px;
+    left: 650px;
+    background: url("equiped.jpg");
+}
+
+div#equiped {
+    width: 134px;
+    height: 77px;
+    position: absolute;
+    top: 147px;
+    left: 650px;
+    background: url("equiped.jpg");
+}
+
+div#inventory {
+    width: 134px;
+    height: 230px;
+    position: absolute;
+    top: 229px;
+    left: 650px;
+    background: url("inventory.jpg") no-repeat;
+}
+
+h1 {
+    font-family: Arial;
+    border-bottom: 5px solid black;
+}
+
+div#messageArea {
+    position: absolute;
+    top: 512px;
+    left: 650px;
+    border: 2px solid black;
+}
+
+div#messageArea1 {
+    position: absolute;
+    top: 535px;
+    left: 650px;
+    border: 2px solid black;
+}
+
+
+td {
+    width: 67px;
+    height: 67px;
+    border: 2px solid black;
+    padding: 1px;
+}
+
+div#cave {
+    position: absolute;
+    z-index: 20;
+    left: 450px;
+    top: 80px;
+}
+
+div#backtotown {
+    position: absolute;
+    z-index: 30;
+    left: 375px;
+    top: 465px;
+}
+
+div#attButton {
+    position: absolute;
+    z-index: 30;
+    left: 650px;
+    top: 470px;
+    width: 76px;
+    height: 35px;
+    background: url("attackButton.jpg") no-repeat;
+}
+
+div#enemyArea {
+    position: absolute;
+    z-index: 30;
+    left: 30px;
+    top: 90px;
+    width: 100px;
+    height: 150px;
+    background: url('enemy.jpg') no-repeat;
+}
